@@ -69,9 +69,10 @@ footer{
 
 #logo{
    /*Your code here.*/
+   -webkit-animation: logo_wiggle;
+   animation-name: logo_wiggle;
    animation-duration: 15s;
    animation-iteration-count: 1;
- 
 }
 
 /* Cards! */
@@ -159,19 +160,14 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  flex-wrap: wrap;
   flex-direction:column;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav_item a{
@@ -209,8 +205,6 @@ header{
   .nav_links{
     /*Your code here again.*/  
     flex-direction: row;
-    justify-content: space-around;
-
   }
 
   .nav_item a{
