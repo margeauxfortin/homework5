@@ -209,6 +209,7 @@ header{
   .nav_links{
     /*Your code here again.*/  
     flex-direction: row;
+    justify-content: space-around;
 
   }
 
@@ -219,11 +220,29 @@ header{
 
 @media print { 
   .card {
-    flex-basis: 200px;
+    flex-basis: 200px;  
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body{
+    background-image: none;
+  }
+  .pricing{
+    align-items: flex-start;
+  }
+  .gallery{
+    display:none;
+  }
+  #gallery{
+    display: none
+  }
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+
+@media screen and (prefers-reduced-motion: reduce){
+  #logo{
+    animation:none;
+  }
+}
