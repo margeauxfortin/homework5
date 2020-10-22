@@ -160,15 +160,13 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  flex-wrap: wrap;
   flex-direction:column;
 }
 
